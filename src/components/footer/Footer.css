@@ -1,0 +1,98 @@
+.footer {
+  width: 1110px;
+  margin: auto auto;
+  color: white;
+
+}
+.footer-part {
+  width: 1130px;
+
+}
+
+.upper {
+  padding: 50px 22.16px;
+  background: #c2a5f9;
+
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+
+
+}
+.upper li {
+  /* margin-right: 12px; */
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.upper button {
+  color: white;
+
+  margin: 10px 0px;
+  padding: 13px 14px;
+  text-transform: uppercase;
+  /* width: 140px; */
+  /* height: 45px; */
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 25.5px;
+  letter-spacing: 0.115em;
+}
+.lower {
+  background: #9e78e8;
+  padding: 24px 48px;
+  margin-top: 0px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.05em;
+}
+.lower li {
+  /* width: 139px; */
+  height: 12px;
+
+  font-family: "Interstate";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 115.2%;
+  /* identical to box height, or 12px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.6;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.lower-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.lower-right {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}

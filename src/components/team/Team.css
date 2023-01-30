@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/interstate');
+
+.whole-team {
+  padding: 50px 20px;
+  width: 1110px;
+  margin: auto auto;
+  font-family: 'Interstate', sans-serif;
+                                                
+  /* margin-top: 30px; */
+
+  /* height: 809.99px; */
+}
+.the-team {
+  width: 1000px;
+  font-family: 'Interstate', sans-serif;
+                                                
+
+  color: white;
+  background: #7c7068;
+  mix-blend-mode: normal;
+}
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0px;
+}
+.child-1 {
+  width: 490.29px;
+  padding: 190px 100px;
+  grid-column: span 2 / span 2;
+}
+
+.child-1 h1 {
+
+  width: 540px;
+  height: 78px;
+
+  /* H3 */
+
+  font-family: "Interstate";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 32px;
+  line-height: 120.5%;
+  /* or 39px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.child-1 p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 164.5%;
+  /* or 26px */
+
+  display: flex;
+  align-items: center;
+}
+.team-btn {
+  display: grid;
+  grid-template-columns: repeat(2, 160px);
+  gap: 10px;
+}
+.child-1 button {
+  color: white;
+  box-sizing: border-box;
+  margin: 10px 0px;
+
+  width: 140px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 25.5px;
+  letter-spacing: 0.115em;
+}
+
+.child-2 {
+  width: 461.29px;
+  background: url(../../assets/image.png);
+}

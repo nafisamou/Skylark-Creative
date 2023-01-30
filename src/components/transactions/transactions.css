@@ -1,0 +1,68 @@
+.parent {
+  width: 1110px;
+  margin: auto auto;
+}
+.transaction {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.card img {
+  width: 370px;
+  height: 410.41px;
+}
+
+.parent h3 {
+  width: 822px;
+  height: 48px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+
+  /* Slate Grey */
+
+  color: #353d45;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-child button {
+  width: 199px;
+  height: 50px;
+
+  background: transparent;
+  border: 2px solid #353d45;
+  border-radius: 25.5px;
+
+  /* Slate Grey */
+
+  color: #353d45;
+}
+.btn-text {
+  margin-left: 4px;
+  padding: 10px 3px;
+  text-align: center;
+  font-family: "Interstate";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.115em;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
